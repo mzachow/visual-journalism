@@ -1,0 +1,107 @@
+.scroll-area {
+    margin: 0 10% 0 10%;
+}
+
+
+.section-top-spaceholder {
+    height: 10vh;
+}
+
+.sections {
+    overflow: hidden;
+}
+
+.step {
+    margin-bottom: 150px;
+    opacity: 0.3;
+    padding-bottom: 100vh;
+}
+
+.active {
+    opacity: 1;
+}
+
+.section-bottom-spaceholder {
+    height: 100vh;
+}
+
+.sticky-top{
+    top:20%;
+}
+
+.graph {
+    margin-top: 5%;
+    border-color: #ffffff;
+}
+
+.bubbles {
+    stroke-width: 1px;
+    fill: #7338c0;
+    stroke: #a787d1; 
+  }
+
+  .bubbles:hover {
+    stroke-width: 2px;
+    fill: #FFC61D;
+    opacity: 1;
+  }
+
+h1 { 
+    font-family: Lato; 
+    text-transform: uppercase;
+    font-size: 70px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700;
+    line-height: 70px; 
+    color: #ffffff;
+} 
+
+h3 { 
+    font-family: Lato; 
+    text-transform: uppercase;
+    font-size: 30px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700;
+    line-height: 30px; 
+    color: #ffffff;
+} 
+
+p { 
+    font-family: Lato; 
+    font-size: 18px; 
+    font-style: normal;
+    font-variant: normal; 
+    font-weight: 300; 
+    line-height: 20px; 
+    color: #ffffff;
+} 
+
+blockquote { 
+    font-family: Lato; 
+    font-size: 21px; 
+    font-style: italic; 
+    font-variant: normal; 
+    font-weight: 300; 
+    line-height: 30px; 
+} 
+
+.line {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 2px;
+  }
+  
+  .axisWhite line{
+    stroke: #ffffff;
+  }
+  
+  .axisWhite path{
+    stroke:#ffffff;
+  }
+  
+  .axisWhite text{
+    fill: #ffffff;
+    font-size: 10px;
+  } 
